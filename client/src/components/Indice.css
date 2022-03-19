@@ -1,0 +1,44 @@
+.fondo-home {
+    background-image: url("https://assassincreed4blackflag.files.wordpress.com/2014/03/assassins-creed-4-black-flag-wallpaper-hd-1920x1080.jpg");
+    display:grid;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0px;
+}
+.foto-juegos-home{
+    visibility: hidden;
+}
+.Titulo-home{
+    position:absolute;
+    bottom: 500px; left: 25%;
+}
+.subtitulo1{
+    visibility:hidden;
+    
+}
+.subtitulo{
+    font-size: 20px;
+}
+
+.titulo {
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 90px;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-bottom: 56px;
+}
+
+.boton-home{
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 340px;
+    height: 150px;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+}

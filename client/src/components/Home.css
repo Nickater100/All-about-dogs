@@ -1,0 +1,81 @@
+.fondo-buscar{
+    background-image:url("https://fondosmil.com/fondo/13105.jpg") ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1381px;
+    width: 100%;
+}
+
+
+
+.container-todos-select {
+    display: inline-flex;
+    height: 18px;
+    padding-top: 17px;
+}
+
+.select-container {
+    width: 380px;
+    color: silver;
+}
+.seleccion{
+    color: black;
+    background-color: silver;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 100px;
+}
+
+.boton-agregar-game{
+    color: black;
+    background-color: silver;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 100px;
+    
+}
+
+.gameCards{
+    width: 80%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 15%; left: 0; bottom: 0; right: 0;
+}
+
+.gamesGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    
+
+    justify-content: center;
+}
+
+.margin{
+    background: rgb(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(3, 1, 1), 0 0 30px #4500e6, 0 0 10px #4500e6,
+    0 0 10px #4500e6, 0 0 10px #4500e6, 0 0 10px #4500e6;
+    width: 250px;
+  }
+  .margin:hover {
+    transform: scale(1.1);  
+  }
+ 
+  .select {
+    width: 160px;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: #000000;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+}
+
+.paginas {
+    position: absolute;
+    top: 130%; left: 15%; bottom: 0; right: 0;
+}

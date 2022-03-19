@@ -1,0 +1,84 @@
+.error{
+    border-color: red;
+    color: red;
+}
+
+.fondo-game-add{
+    background-image: url("https://areajugones.sport.es/wp-content/uploads/2021/02/knight-dark-souls-iii-armor-swords-536494-1920x1080-1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1111px;
+    width: 100%;
+}
+
+.container-black{
+    display: flex;
+    position: absolute;
+    left: 80px; bottom: -142px;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 1110px;
+    width: 830px;
+    border-radius: 4px;
+    margin-top: 8%;
+    margin-left: 22%;
+}
+
+.nombre{
+    color: silver;
+}
+
+.generos{
+    color: silver;
+    display: block;
+    position: relative;
+    background-color: black;
+    left: 450px; bottom: 40px;
+}
+
+.descripcion{
+    color: silver;
+    position: relative;
+    bottom: 420px;
+}
+
+.releaseDate{
+    color: silver;
+    position: relative;
+    bottom: 400px; left: 20px;
+}
+
+.rating{
+    color: silver;
+    position: relative;
+    bottom: 380px;
+}
+
+.imagen{
+    color: silver;
+    position: relative;
+    bottom: 360px;
+}
+
+.plataformas{
+    color: silver;
+    display: block;
+    position: relative;
+    background-color: black;
+    left: 20px; bottom: 300px;
+}
+
+.boton-agregar-juego{
+    display: block;
+    position: relative;
+    left: 480px; bottom: 400px;
+    background-color: black;
+    color: silver;
+    border: none;
+    width: 240px;
+    height: 100px;
+    border-radius: 0px;
+    font-weight: 600;
+    font-size: 20px;
+}

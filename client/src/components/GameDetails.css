@@ -1,0 +1,55 @@
+
+.fondo-game-detail {
+    background-image: url("https://oyster.ignimgs.com/wordpress/stg.ign.com/2020/09/02_FF7rm.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1111px;
+    width: 100%;
+}
+.imge{
+    visibility: hidden;
+}
+
+.container-amarillo {
+    display: flex;
+    position: absolute;
+    left: 80px; bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 1000px;
+    width: 830px;
+    border-radius: 4px;
+    margin-top: 8%;
+    margin-left: 22%;
+}
+
+.img-game {
+    position: relative;
+    left: 240px; top: 50px;
+    height: 200px;
+    width: 310px;
+    border-radius: 4px;
+    margin: 5px;
+    padding-top: 5px;
+}
+
+.descripcion-game {
+    position: relative;
+    top: 220px; right: 100px;
+    color: silver;
+    height: 363px;
+    width: 362px;
+    padding-top: 50px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-desc-img {
+    display: flex;
+}
+
+.img-subir {
+    background-color: white;
+    padding-top: 30px;
+}
